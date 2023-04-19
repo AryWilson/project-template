@@ -99,8 +99,8 @@ set(SHADERS
     shaders/phong-texture.vs
     )
 
-add_executable(demo src/demo.cpp ${SOURCES} ${SHADERS})
-target_link_libraries(demo ${CORE})
+add_executable(Viewer src/Viewer.cpp ${SOURCES} ${SHADERS})
+target_link_libraries(Viewer ${CORE})
 
 if (WIN32)
   source_group("shaders" FILES ${SHADERS})
