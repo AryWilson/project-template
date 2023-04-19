@@ -1,7 +1,7 @@
-# YOUR PROJECT TITLE HERE
+# PlanetarySystemViewer
 
-TODO: Replace "TODO" messages with your own text
-TODO: Add a description of your project here
+Launch an interactive, 3d model of a planetary system
+
 TODO: Add a representative image for your project here
 
 ## How to build
@@ -44,7 +44,21 @@ project-template/build $ ../bin/demo
 
 ## Demo of basic features
 
-TODO: Document the main demos your viewer 
+Background implemented with cubemap
+
+Unique textures and meshes
+
+Launch a viewer with orbiting planets
+
+Rotate and zoom abilities
+
+Click on different planets
+
+Phong shading
+
+Area lighting
+
+Particle system tracks orbits
 
 ## Unique features 
 

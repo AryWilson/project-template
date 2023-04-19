@@ -86,6 +86,10 @@ file(GLOB SOURCES "src/agl/*.h" "src/agl/*.cpp" "src/agl/mesh/*.h" "src/agl/mesh
 set(SHADERS
     shaders/unlit.vs
     shaders/unlit.fs
+    shaders/phong-pixel.fs
+    shaders/phong-pixel.vs
+    shaders/phong-texture.fs
+    shaders/phong-texture.vs
     )
 
 add_executable(demo src/demo.cpp ${SOURCES} ${SHADERS})
