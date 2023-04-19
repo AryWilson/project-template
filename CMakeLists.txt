@@ -83,6 +83,13 @@ link_directories(${LIBRARY_DIRS})
 
 file(GLOB SOURCES "src/agl/*.h" "src/agl/*.cpp" "src/agl/mesh/*.h" "src/agl/mesh/*.cpp") 
 
+set(SOURCES 
+    ${AGLSRC}
+    src/plymesh.cpp
+    src/plymesh.h
+    src/osutils.h 
+    src/osutils.cpp )
+
 set(SHADERS
     shaders/unlit.vs
     shaders/unlit.fs
